@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOSISOCHNAYA</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<header>
+    <div class="header">
+        <img class="logo" src="image/logo.png">
+        <h1 class="promo">SOSISOCHNAYA "Y BOGDANA"</h1>
+        <img class="img2" src="image/img2.png">
+        <button id="buyButton" name="button">Buy a sausage</button>
+    </div>
+</header>
+<body>
+    <img class="img3" src="image/img3.png" alt="Sausage image">
+    <div class="container">
+        <a class="menu" href="sosiska.html">Menu</p>
+        <a class="arrow" href="sosiska.html">➙</a>
+    </div>
+    <div id="sausageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>🌭 Choose Your Sausage</h2>
+            <div class="sausage-options">
+                <div class="sausage-item">
+                    <div>
+                        <div class="sausage-name">Classic Sosiska</div>
+                        <div class="sc1" >Traditional pork sausage</div>
+                    </div>
+                    <div>
+                        <div class="sausage-price">$3.50</div>
+                        <button class="buy-btn" onclick="buySausage()">Buy</button>
+                    </div>
+                </div>
+                
+                <div class="sausage-item">
+                    <div>
+                        <div class="sausage-name">Spicy Sosiska</div>
+                        <div class="sc1">With hot peppers and spices</div>
+                    </div>
+                    <div>
+                        <div class="sausage-price">$4.00</div>
+                        <button class="buy-btn" onclick="buySausage()">Buy</button>
+                    </div>
+                </div>
+                
+                <div class="sausage-item">
+                    <div>
+                        <div class="sausage-name">Cheese Sosiska</div>
+                        <div class="sc1" >Filled with melted cheese</div>
+                    </div>
+                    <div>
+                        <div class="sausage-price">$4.50</div>
+                        <button class="buy-btn" onclick="buySausage()">Buy</button>
+                    </div>
+                </div>
+                
+                <div class="sausage-item">
+                    <div>
+                        <div class="sausage-name">Premium Sosiska</div>
+                        <div class="sc1">Premium beef with herbs</div>
+                    </div>
+                    <div>
+                        <div class="sausage-price">$5.50</div>
+                        <button class="buy-btn" onclick="buySausage()">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
